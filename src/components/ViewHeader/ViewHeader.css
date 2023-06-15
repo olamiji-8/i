@@ -1,0 +1,171 @@
+.viewHeader{
+  /* margin-top: 70px; */
+  width:100%; 
+  height:400px;
+  display:flex; 
+  align-items:flex-end; 
+  justify-content:center;
+  position:relative; 
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.viewInnerHeader{
+  width: 100%;
+  max-width: 900px;
+  /* background-color:white; */
+  font-size: 50px; 
+  font-weight: 600; 
+  z-index: 2;
+}
+.viewInnerImage{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+  gap: 40px;
+  grid-gap: 40px;
+  margin-bottom: 30px;
+}
+.imageFrame{
+  width: 250px;
+  height: 250px;
+  border: 5px solid white;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.textFrame{
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.textFrame h1{
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50px;
+  
+  text-align: center;
+  margin: 0;
+  /* margin-bottom: 5px; */
+}
+.textFrame span{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.viewTabs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.viewTab{
+ padding: 20px 40px;
+ font-size: 14px;
+ background-color: white;
+ color: black;
+ user-select:none;
+ cursor: pointer;
+}
+.viewTab:hover{
+  padding: 20px 40px;
+  color: var(--main);
+  background-color: var(--sub-main);
+}
+.viewTabActive{
+  padding: 18px 40px;
+  font-size: 14px;
+  color: var(--main);
+  background-color: var(--sub-main);
+  border-bottom: 4px solid var(--main); 
+  user-select:none;
+ cursor: pointer;
+
+ }
+
+@media screen and (max-width: 550px) {
+  .viewHeader{
+    width:100%; 
+    height:170px;
+    /* margin-top: 0px; */
+
+  }
+  .textFrame h1{
+    font-size: 30px;
+}
+  .textFrame p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.viewInnerImage{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.imageFrame{
+  width: 90px;
+  height: 90px;
+  border: 3px solid white;
+}
+
+.textFrame{
+  color: white;
+}
+.textFrame h1{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.textFrame span{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+}
+.viewTabs{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.viewTab{
+  padding: 10px 16px;
+  font-size: 11px;
+  background-color: white;
+  color: black;
+  user-select:none;
+  font-weight: 300;
+  cursor: pointer;
+ }
+ .viewTab:hover{
+   padding: 9px 16px;
+   /* padding: 20px 40px; */
+   color: var(--main);
+   background-color: var(--sub-main);
+ }
+ .viewTabActive{
+   padding: 9px 16px;
+  font-weight: 300;
+  font-size: 11px;
+   color: var(--main);
+   background-color: var(--sub-main);
+   border-bottom: 2px solid var(--main); 
+   user-select:none;
+  cursor: pointer;
+ 
+  }
+ 
+  
+}

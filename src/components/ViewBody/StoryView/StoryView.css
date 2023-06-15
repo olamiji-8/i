@@ -1,0 +1,131 @@
+.story_memo_cont {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #C4C4C4;
+    gap: 20px;
+}
+
+.story_memo_con {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.story_title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.story_titles {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.story_link {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+
+}
+
+.story_link a {
+    color: var(--main);
+}
+
+
+.story_content {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+
+    /* overflow: scroll; */
+}
+
+/* story card style start here */
+
+.story_card_cont {
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    /* align-items: center; */
+    cursor: pointer;
+}
+
+.story_image {
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.story_containa {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    gap: 20px;
+    overflow: hidden;
+
+}
+
+.story_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
+    /* So the width will be 100% + 17px */
+
+}
+
+.story_content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+}
+
+.btnreadmore {
+    border: none;
+    background: #ffffff;
+    color: #FF7900;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .story_image {
+        display: none;
+    }
+
+    .story_memo_cont {
+        gap: 0;
+    }
+
+    .story_memo_con {
+        padding: 20px;
+    }
+
+    .story_title {
+        font-size: 25px;
+        margin: 0px 20px;
+    }
+}

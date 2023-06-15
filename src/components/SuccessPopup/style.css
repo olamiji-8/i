@@ -1,0 +1,70 @@
+.dialogArea{
+    padding: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+.closeIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.iconArea{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconAreaError{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FB4B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleArea{
+    font-weight: 600;
+    font-size: 24px;
+    color: #7C8691;
+    text-align: center;
+
+}
+.messageArea{
+    font-weight: 400;
+    font-size: 16px;
+    color: #b4b8bc;
+    text-align: center;
+}
+.sub_message{
+    font-weight: 400;
+    font-size: 14px;
+    color: #0456a8;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btnArea{
+    background: #F1F5F8;
+    width: 320px;
+    padding: 10px 20px;
+}
+.btnAreaError{
+    background: #F1F5F8;
+    width: 320px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

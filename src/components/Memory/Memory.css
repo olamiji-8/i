@@ -1,0 +1,295 @@
+.memorial-containers {
+    background: #FF7900;
+
+}
+
+.memorialdiv {
+
+    padding: 65px 150px 0px 150px
+}
+
+
+.memory-width {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.recentmomorial{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+}
+.carouselimg {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(.76, .5)
+}
+
+
+
+
+.carousel-body {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+
+.circular {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: auto;
+}
+
+.circular img {
+    max-width: 66px;
+    width: auto;
+    max-height: 66px;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    margin-bottom: 0px;
+    object-fit: scale-down;
+}
+
+
+.carousel-body {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+
+.item1 {
+    margin-bottom: 50px;
+}
+
+
+.memorialtoflex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-memory{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rowandcolumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel1 {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    Height: 200px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+
+.carousel1::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px #FFFFFF;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+
+.carousel1 span{
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.memorialscarousel {
+    padding: 0px 150px 65px 150px
+}
+
+.memorial-date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Default / White */
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+.memorial-name a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.memorial-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+
+    text-decoration-line: underline;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .memorialdiv {
+        padding: 0px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 901px) {
+    .memorymobile {
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .memorydesktop {
+        display: none;
+    }
+    .recentmomorial{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 32px;
+    line-height: 44px;
+
+    }
+
+    .memorialscarousel {
+        padding: 20px
+    }
+
+    .memorymobile {
+        height: 431px;
+        background: #FF7900;
+        padding: 30px;
+    }
+
+
+    .memorytitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .memorialtitletag {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 44px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+    }
+
+
+    .carousel1 {
+        /* width: auto; */
+    }
+
+
+    .carousel1 span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9.88392px;
+        text-align: center;
+        line-height: 17px;
+        text-align: center;
+        font-feature-settings: 'salt' on, 'liga' off;
+
+    }
+
+
+        .circular {
+        width: auto;
+    }
+
+    .memorial-date {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .memorial-name{
+        display: block;
+    }
+
+    .memorial-name a {
+        text-align: center;
+    }
+
+
+    /* .carousel1::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 65%;
+        margin-left: -50px;
+        width: 0;
+        height: 0;
+        border-top: solid 10px #FFFFFF;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+    } */
+     
+
+}

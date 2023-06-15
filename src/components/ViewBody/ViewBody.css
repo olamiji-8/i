@@ -1,0 +1,202 @@
+.view_body_container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.view_body_body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.memo_view_body_card_title {
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 32px;
+  margin-bottom: 24px;
+}
+
+.memo_view_body {
+  display: flex;
+  width: 100%;
+  gap: 45px;
+}
+
+.memo_view_body_left {
+  display: flex;
+  width: 70%;
+}
+
+.memo_view_body_right {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.memo_share {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 20px;
+}
+
+.share_memo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--black);
+
+}
+
+.share_memo span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.30000001192092896px;
+  color: var(--light-black);
+}
+
+.social_icons_memo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.email_memo {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.email_memo span {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--main);
+  text-decoration: underline;
+}
+
+.memo_view {
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+
+.memo_created_by {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.memo_created_name {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+
+  text-align: center;
+}
+
+
+.audio_enable {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.aud_enb {
+  font-size: 1em;
+  text-align: center;
+  /* margin: 1rem 0 1em; */
+  font-weight: 800;
+  color: #FF7900;
+}
+
+.aud_btn {
+  background: #FF7900;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+
+@media screen and (max-width : 900px) {
+  .showDesktop {
+    display: none;
+  }
+
+  .showMobile {
+    display: block;
+  }
+
+  .view_body_body {
+    padding: 0px;
+  }
+
+  .memo_view_body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .memo_view_body_left {
+    display: flex;
+    width: 100%;
+  }
+
+  .memo_view_body_right {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .memo_view_body_card_title {
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+  }
+
+  .memo_share {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 15px;
+  }
+
+  .share_memo {
+    padding: 15px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black);
+  }
+
+  .memo_view {
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+  .memo_created_name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }
+}

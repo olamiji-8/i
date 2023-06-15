@@ -1,0 +1,57 @@
+.hunt_btn{
+ width: 100%;
+ max-width: 400px;
+ padding: 3px 6px;
+ border-radius: 8px;
+ border: 1px solid var(--main);
+ display: flex;
+ align-items: center;
+ color: var(--main);
+ background-color: white;
+ cursor: pointer;
+ user-select: none;
+ text-decoration: none;
+}
+.flextoLeft{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    align-items: center;
+}
+.leftRounded{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.leftText span{
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px ;
+
+    /* line-height: 7px; */
+}
+.leftText h4{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px ;
+    /* line-height: 15px; */
+}
+.flextoRight{
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width : 550px) {
+    
+}

@@ -1,0 +1,14 @@
+.main {
+    grid-area: section;
+    background-color: #FFFFFF;
+    padding: 10px 30px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+.input_div{
+    border-bottom: 1px solid #8F92A1;
+    padding: 10px 2px;
+    width: 100%;
+    max-width: 450px;
+    font-size: 18px;
+}

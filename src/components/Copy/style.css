@@ -1,0 +1,41 @@
+.email_copy{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: var(--main);
+    position: relative;
+}
+.email_copy span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    color: var(--main);
+    text-decoration: underline;
+}
+.copied{
+    position: absolute;
+    top: -5px;
+    right: -40px;
+    font-size: 14px;
+    font-weight: 300;
+}
+@media screen and (max-width : 900px) {
+    .email_copy{
+        gap: 5px;
+    }
+
+    .email_copy span{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .copied{
+        position: absolute;
+        top: -5px;
+        right: -20px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+}

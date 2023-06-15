@@ -1,0 +1,13 @@
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    if (location.state === "goBack()") {
+      executeScrollbacktotop();
+    }
+  }, []);
+
+  const scrollToRef = (ref) =>
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });

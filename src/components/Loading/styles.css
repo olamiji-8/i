@@ -1,0 +1,30 @@
+.toCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(217, 216, 216, 0.5);
+  }
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgb(217, 216, 216);
+    border-bottom-color: var(--main);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        }

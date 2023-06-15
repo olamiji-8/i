@@ -1,0 +1,36 @@
+.memorial_main_total{
+    background-color: blueviolet;
+}
+
+.memorial_paragraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #333333;
+}
+
+.count__memorial_total{
+    color: #8C18E2;
+}
+
+.count__memorial_active{
+    color: #4CAF50;
+}
+
+.count__memorial_expiring{
+    color: #4A4DE6;
+}
+
+.count__memorial_expired{
+    color: #FF7900;
+}
+
+
+.memorial_count_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,93 @@
+.galleryView{
+width: 800px;
+}
+.galleryImage{
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.galleryImage:hover{
+    transform: scale(1.02);
+}
+.gallery_slider{
+    /* width: 600px; */
+    padding: 25px 0;
+    background-color: white;
+    text-align: center;
+}
+.gallery_slider h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.imaged{
+    width: 600px;
+    height: 500px;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+.chevronRicon{
+    position:absolute;
+    right: 0;
+    top: 230px
+}
+.chevronLicon{
+    position:absolute;
+    left: 0;
+    top: 230px
+}
+.galaImage{
+    width: 100%;
+    max-height:250px;
+    height: 100%
+}
+.gallary_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+
+@media screen and (max-width: 550px) {
+    .galleryView{
+        width: 100%;
+        }
+    .imaged{
+        width: 300px;
+        height: 300px;
+    }
+    .chevronRicon{
+        top: 140px
+    }
+    .chevronLicon{
+        top: 140px
+    }
+    .galleryImage{
+        width: 100%;
+        /* max-width: 400px; */
+        height: 100%;
+        cursor: pointer;
+        transition: all 200ms;
+        /* padding-left: 16px; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    .galaImage{
+        width: 100%;
+        max-width: 350px;
+        height: 100%;
+        max-height:250px;
+    }
+    .grid-flex{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

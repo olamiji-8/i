@@ -1,0 +1,18 @@
+.tribute_title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    /* identical to box height, or 233% */
+    color: #848199;
+}
+.body_body{
+    padding: 30px 10px;
+}
+
+@media screen and (max-width:900px) {
+    .body_body{
+        padding: 40px 0;
+    }  
+}

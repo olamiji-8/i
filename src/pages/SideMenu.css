@@ -1,0 +1,148 @@
+
+
+.sidebar__body{
+  user-select: none;
+}
+.sidenav__close-icon {
+  position: absolute;
+  visibility: hidden;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ddd;
+}
+
+
+.sidenav__close-icon-{
+  position: fixed;
+  left: 210px;
+  top: 20px;
+}
+
+.sidenav__list {
+  padding: 0;
+  margin-top: 85px;
+  list-style-type: none;
+}
+
+.sidenav__list-item {
+  padding: 20px 20px 20px 40px;
+  color: #ddd;
+}
+
+.sidenav__list-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.sidebar__main{
+    padding: 5px 20px;
+}
+
+.sidebar__main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.sidebar__main:hover{
+  transform: scale(1.05);
+}
+
+.sidebar__main_manage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.submenu__details:hover{
+  transform: scale(1.05);
+}
+
+.sidebar__titles{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sidebar__title__main{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+/* font-weight: 500; */
+font-size: 14px;
+/* line-height: 140%; */
+letter-spacing: -0.3px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.sidebar__count__main{
+    font-family: 'Inter', sans-serif;
+    font-size:12px;
+    font-style: normal;
+    /* font-weight: 500; */
+    width:1.5em;
+    height:1.5em;
+    line-height:1.5em;
+    text-align:center;
+    border-radius:50%;
+    background:#FF7900;
+    vertical-align:middle;
+    /* margin-right:1em; */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sidebar__arrow{
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.submenu__main{
+    background-color: #FFFFFF;
+}
+
+
+.submenu__details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+
+.submenu__name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+font-size: 13.6px;
+line-height: 140%;
+/* or 19px */
+
+letter-spacing: -0.34px;
+
+/* On Surface / Light / High-emphasis */
+
+color: #FFFFFF;
+
+}
+
+
+.image_tribute{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+
+@media only screen and (min-width: 46.875em) {
+
+
+  .sidenav__close-icon {
+    visibility: hidden;
+  }
+
+  .sidenav__close-icon-{
+      visibility: hidden;
+  }
+
+}

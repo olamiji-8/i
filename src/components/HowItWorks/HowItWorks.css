@@ -1,0 +1,249 @@
+.howitworks-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: -180px; */
+    margin-top: -120px;
+    padding-top: 100px;
+}
+
+
+.howitworksdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.how-works-tag{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin: 0 !important;
+}
+
+.howitworksparagraph{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin: 5px 0 !important;
+}
+
+
+.howitworksicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+
+}
+.howicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.howicon img{
+    max-width: 100%;
+}
+
+
+.memorial-content-story{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    gap: 55px;
+}
+
+.memorial{
+    width: 370px;
+    height: 158px;
+}
+
+.content{
+    width: 370px;
+    height: 158px;
+}
+
+.story{
+    width: 370px;
+    height: 158px;
+
+}
+
+.memerialtag{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin-top: 0px;
+
+}
+
+.contenttag{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin-top: 0px;
+
+}
+
+.storytag{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+margin-top: 0px;
+
+}
+
+
+.memorialmobiletag{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+/* text-align: center; */
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+}
+
+
+.memorialpartag{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+padding: 0 10px;
+/* or 162% */
+
+/* text-align: center; */
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+
+
+.memorialcontentstory_{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media only screen and (min-width: 901px) {
+.howitworksmobile{
+    display: none;
+  }
+
+
+
+
+
+}
+
+  
+  @media only screen and (max-width: 900px) {
+    .howitworksweb{
+      display: none;
+    }
+
+
+    .howitworkinnermobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-top: 30px; */
+        margin-top: -80px;
+        padding-top: 90px;
+    }
+    
+    .memorialmobile{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+      
+    }
+    
+    .memorialimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+
+    .how-works-tag{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.1699px;
+line-height: 35px;
+/* identical to box height, or 133% */
+
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+    }
+
+    .howitworksparagraph{
+        font-size: 12px;
+    }
+    
+
+  }

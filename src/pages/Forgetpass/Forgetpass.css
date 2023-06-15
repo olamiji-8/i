@@ -1,0 +1,36 @@
+.loginContainer{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    color: var(--textColor);
+    /* background-color: aqua; */
+    justify-content: center;
+  }
+  .loginFormContainer{
+    width: 100%;
+    max-width: 350px;
+    /* background-color: aqua; */
+    /* margin:  auto; */
+  }
+  .loginHead{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .loginHead h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .cancelAndRegist{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }

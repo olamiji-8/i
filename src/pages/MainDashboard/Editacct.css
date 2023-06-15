@@ -1,0 +1,215 @@
+.myaccount_name {
+    font-weight: 400;
+    font-size: 20px;
+    color: #0B0500;
+}
+.myaccount_small {
+    font-weight: 400;
+    font-size: 13px;
+    color: #848199
+}
+
+.myaccount_text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #848199
+}
+
+
+.editpenandtext {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #FF7900;
+    cursor: pointer;
+}
+
+.myaacount_editpen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #848199;
+    margin: 40px 0
+    
+}
+
+.form-inputs{
+    /* margin-top: 50px; */
+    /* padding: 10px 30px; */
+
+}
+
+.profile-body{
+    padding: 10px 30px;
+}
+
+.labelfirstname{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+/* identical to box height, or 15px */
+
+letter-spacing: -0.01em;
+
+/* Primary */
+
+color: #FF7900;
+
+}
+
+.inputfirst, .lastnameirst, .emailfirst, .lastfirst, .countryfirst, .phonefirst, .passfirst ,.phonemuber, .selectcountries, .inputcountry{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:  none;
+    padding: 7px 0;
+    width: 100%;
+    max-width: 450px !important;
+    /* 
+    width: 50%; */
+    /* margin-bottom: 50px; */
+
+}
+
+.inputcountry > div .PhoneInputInput{
+    width: 100%;
+    max-width: 450px !important;
+    padding: 7px 0;
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:  none;
+}
+
+
+.inputfirst-password{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline:  none;
+    width: 389px;
+    /* 
+    width: 50%; */
+    margin-top: 60px;
+}
+.formgeneralcontent{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(365px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+input{
+    color: black !important;
+}
+
+input:focus{
+    color: black !important;
+}
+
+.optionselect, .selectcountries{
+    color: black;
+    background-color: FFFFFF !important;
+}
+
+
+
+/* .savechangesbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+} */
+
+.savechangesbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.savechangesbtnacct{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.savechangesbtnacct > button{
+    width: 100%;
+    max-width: 400px;
+height: 53px;
+background: #FF7900;
+box-shadow: 0px 5.25px 26.25px rgba(255, 145, 139, 0.5);
+border-radius: 10px;
+border: #FF7900;
+color: #ffffff;
+cursor: pointer;
+}
+
+.save-btn > button{
+    width: 100%;
+    max-width: 250px;
+    height: 53px;
+color: #ffffff;
+cursor: pointer;
+
+background: #FF7900;
+box-shadow: 0px 5.25px 26.25px rgba(255, 145, 139, 0.5);
+border-radius: 10px;
+border: #FF7900;
+}
+
+@media only screen and (max-width: 720px) {
+.profile-body{
+    padding: 30px 0;
+}
+
+.myaacount_editpen {
+    margin: 15px 0 25px 0
+}
+
+    .inputfirst, .lastnameirst, .emailfirst, .lastfirst, .countryfirst, .phonefirst, .passfirst ,.phonemuber, .selectcountries, .inputcountry{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline:  none;
+        /* width: auto !important; */
+        /* 
+        width: 50%; */
+        /* margin-bottom: 50px; */
+    
+    }
+
+    .formgeneralcontent{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+/* justify-content: center;
+width: auto !important; */
+    }
+
+.before-btn > button{
+    width: 200px
+}
+
+
+
+
+
+}

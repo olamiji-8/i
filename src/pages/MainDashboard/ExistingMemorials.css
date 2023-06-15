@@ -1,0 +1,156 @@
+.memorial__bg {
+    width: 100%;
+    height: 264px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+.existing__memorials__home {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 1em;
+}
+
+.css-1t6e9jv-MuiCardActions-root {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+
+}
+
+
+
+.state__active {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+
+    font-size: 12px !important;
+
+
+    color: #4CAF50;
+    background: #DEFFDF;
+    border-radius: 100px;
+    padding: 0px 12px;
+}
+
+.state__save {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+
+    font-size: 12px !important;
+
+
+    color: #0d7110;
+    background: #b3e5b5;
+    border-radius: 100px;
+    padding: 0px 12px;
+}
+
+
+.state__expiring {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+
+    font-size: 12px !important;
+
+
+    color: #4A4DE6;
+    background: #E1F5FD;
+    border-radius: 100px;
+    padding: 0px 12px;
+}
+
+
+.state__expired {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+
+    font-size: 12px !important;
+
+
+    color: #ED6700;
+    background: #FFECB3;
+    border-radius: 100px;
+    padding: 0px 12px;
+}
+
+
+.state__suspend {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+
+    font-size: 12px !important;
+
+
+    color: #221206;
+    background: #FFECB3;
+    border-radius: 100px;
+    padding: 0px 12px;
+}
+
+
+.learnmore {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    color: #FF7900 !important;
+}
+
+.memorial__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.memorial__date {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
+
+.memo_ca {
+    position: absolute;
+    color: white;
+    /* background-color: #4CAF50; */
+    width: 100%;
+    height: calc(100% - 50px);
+    top: 0;
+    background-color: 'red';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width : 1024px) {
+    .existing__memorials__home {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .existing__memorials__home {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .existing__memorials__home {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

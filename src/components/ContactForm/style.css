@@ -1,0 +1,31 @@
+.contact_form{
+    width: 100%;
+}
+.contact_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.contact_input label{
+    color: #596273;
+    font-weight: 300;
+    font-size: 25px
+}
+.contact_input input{
+    outline: none;
+    border: 1px solid #8F92A1;
+    border-radius: 7px;
+    padding: 20px  ;
+}
+.contact_input textarea{
+    outline: none;
+    border: 1px solid #8F92A1;
+    border-radius: 7px;
+    padding: 20px  ;
+}
+.error_labelv2{
+    font-size: 13px;
+    color: rgb(183, 7, 7);
+    margin-top: -12px;
+}

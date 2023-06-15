@@ -1,0 +1,95 @@
+.about_memo_cont{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #C4C4C4;
+    gap: 30px;
+}
+.about_title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    
+    text-align: left;
+    margin-bottom: 20px;
+}
+.about_quote{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    
+    text-align: center;
+}
+.about_content{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+.about_memo_con{
+    padding: 30px 0;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login_link{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+
+}
+.login_link a{
+    color: var(--main);
+}
+.tribute_textares{
+    width: 100%;
+    height: 300px ;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    font-size: 13px;
+    color: #333333;
+    outline: none;
+}
+
+@media screen and (max-width : 900px) {
+    .about_memo_cont{
+        padding: 20px;
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        border-bottom: 0.5px solid #C4C4C4;
+        gap: 20px;
+    }
+    .about_memo_con{
+        padding: 20px;
+    }
+    .about_title{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .about_quote{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+    }
+    .about_content{
+        font-size: 15px;
+        /* font-weight: 300; */
+        line-height: 27px;
+        text-align: left;
+    }
+    .login_link{
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 15px;
+    
+    }
+    .login_link a{
+        color: var(--main);
+    }
+}

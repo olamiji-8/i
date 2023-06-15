@@ -1,0 +1,8 @@
+.home_container{
+    width: 100%;
+}
+.home_max_width{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

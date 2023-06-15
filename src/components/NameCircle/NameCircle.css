@@ -1,0 +1,63 @@
+.name_circle_card_title{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 10px;
+    gap: 10px;
+    align-items: center;
+  }
+  .name_circle_circle_title{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    color: white;
+  }
+  
+  .name_circle_username_ h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .name_circle_username_ h4{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    margin: 0;
+  }
+  .name_circle_username_ p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #9CA0AC;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  @media screen and (max-width : 900px) {
+   
+    .name_circle_circle_title{
+      width: 35px;
+      height: 35px;
+      font-size: 14px;
+    }
+    
+    .name_circle_username_ h3{
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 14px;
+    }
+  
+    .name_circle_username_ p{
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 10px;
+    }
+  }

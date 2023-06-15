@@ -1,0 +1,99 @@
+.role{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    background: #222936;
+    color: #FFFFFF;
+
+border-radius: 8px;
+cursor: pointer;
+padding: 0 15px;
+/* margin-bottom: 100px; */
+
+}
+
+
+.rolewhite{
+    display: flex;
+    /* justify-content: center; */
+    padding: 0 15px;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    color: #222936;
+border-radius: 8px;
+cursor: pointer;
+}
+
+
+.role__body__edit{
+    padding: 20px;
+}
+
+
+
+.role__body{
+    padding: 10px;
+}
+
+
+.role__main__name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.3px;    
+    margin: 0px;
+}
+
+
+.role__role{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+/* line-height: 140%; */
+letter-spacing: -0.3px;
+
+color: rgba(255, 255, 255, 0.42);
+
+}
+
+
+.role__role_edit{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* line-height: 140%; */
+    letter-spacing: -0.3px;
+    
+    color: rgba(51, 51, 51, 0.42);
+}
+
+.role__initial__name{
+    font-size:1em;
+  width:2.0em;
+  height:2.0em;
+  line-height:2.0em;
+  text-align:center;
+  border-radius:50%;
+  background:#ECD348;
+  vertical-align:middle;
+  /* margin-right:1em; */
+  color: rgba(24, 24, 25, 0.9);
+}
+
+.role__initial__memorial{
+    font-size:1em;
+    width:2.0em;
+    height:2.0em;
+    line-height:2.0em;
+    text-align:center;
+    border-radius:50%;
+    background:#FFEFE0;
+    vertical-align:middle;
+    /* margin-right:1em; */
+    color: #FF7900;
+}
