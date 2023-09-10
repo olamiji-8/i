@@ -22,13 +22,14 @@ import Logowhite from "../../assets/Logowhite.png";
 import { parsePhoneNumber, isValidPhoneNumber } from 'react-phone-number-input'
 import { ClipLoader } from 'react-spinners'
 import Ctblogo from "../../assets/Ctblogo.png";
-import { useGoogleLogin } from '@react-oauth/google';
+import { useGoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
 import axios from "axios";
 import { Axios } from '../../utils/Axios'
 import Swal from "sweetalert2";
 import Loading from "../../components/Loading";
 import { Local_storage } from "../../utils/LocalStorageConfig";
 import { FacebookProvider, LoginButton } from 'react-facebook';
+
 
 
 function SignUp() {
@@ -47,7 +48,7 @@ function SignUp() {
     const [errorMessage, setErrorMessage] = useState('')
     const [countryErr, setcountryErr] = useState(false)
     const [phoneErr, setphoneErr] = useState(false)
-
+    const  clientId = "12343443"
     const schema = yup.object().shape({
         first_name: yup.string().required("Firstname is required").matches(/^[aA-zZ\s]+$/, "Can't contain number or special character"),
         last_name: yup.string().required("Lastname is required").matches(/^[aA-zZ\s]+$/, "Can't contain number or special character"),
@@ -183,7 +184,6 @@ function SignUp() {
       }
     
 
-
     return (
         <div>
             <div className='signup_container'>
@@ -214,14 +214,15 @@ function SignUp() {
                             <div className='addMarginMobile' style={{marginBottom:'30px'}}>
                             <Grid container spacing={2}>
                                 <Grid item xs={5}>
-                                    <GoogleBtn
+                                    <GoogleBtn 
                                         icon="google"
                                         txt="Continue With Google"
                                         onClick={() => login()}
                                     />
                                 </Grid>
                                 <Grid item xs={7}>
-                                <FacebookProvider appId="617435849969522">
+                                    
+                                <FacebookProvider appId={process.env.REACT_APP_FACEBOOK_AUTH_CLIENT_ID}>
                                  
                                     <LoginButton
                                      scope="email"

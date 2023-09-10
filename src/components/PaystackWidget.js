@@ -40,3 +40,4 @@ const PaystackWidget = forwardRef((props, ref) => {
 });
 
 export default PaystackWidget;
+

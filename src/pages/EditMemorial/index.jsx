@@ -478,14 +478,6 @@ const EditMemorial = () => {
     }
 
 
-
-
-
-
-
-
-
-
     if (loading) {
         return (
             <BackDrop open={loading} />
@@ -926,10 +918,6 @@ const EditMemorial = () => {
                                         View tributes
                                     </div>
                                 </div>
-
-
-
-
 
                                 <div className="createdDate">
                                     <span>Date created: <span>{moment(created_expire[0]).format('DD/MM/YYYY')}</span></span>

@@ -228,7 +228,7 @@ function Login() {
                   </Grid>
                   <Grid item xs={6}>
                     <FacebookLogin
-                      appId="428607515971181"
+                     appId={process.env.REACT_APP_FACEBOOK_AUTH_CLIENT_ID}
                       // autoLoad
                       callback={responseFacebook}
                       render={renderProps => (

@@ -23,7 +23,7 @@ root.render(
     <App />
     <CookieConsent
       location="bottom"
-      buttonText="I understand"
+      buttonText="I Agree"
       cookieName="myAwesomeCookieName2"
       style={{ background: "#ffffff", color: '#000000', border:"2px solid #000000" }}
       buttonStyle={{ background: '#ff7900', color: "#ffffff", fontSize: "13px", borderRadius: "4px" }}
